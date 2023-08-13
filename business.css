@@ -1,0 +1,59 @@
+header p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-indent: 30px;
+    text-shadow: 10px -3px 5px pink;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+div p{
+    font-weight: bold;
+    font-size: 16px;
+    /* text-align: center; */
+
+    color: whitesmoke;
+    background-color: gray;
+
+    width: 70%;
+    height: 100px; 
+
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     /* box-sizing: border-box; */
+
+     transition: all .5s ease-in;
+}
+div p:hover{
+ 
+    color: bisque;
+    background-color:blue;
+    font-size: 25px;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: block;
+}
+nav a:active{
+    color: gray;
+    
+}
